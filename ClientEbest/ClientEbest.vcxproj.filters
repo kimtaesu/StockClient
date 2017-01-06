@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MsgQueue">
+      <UniqueIdentifier>{1eae39f8-f3b5-40ac-893e-7ab303008a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{b822d8fe-5e48-4a89-89c8-6730b6f5d72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json\serializable">
+      <UniqueIdentifier>{52bb00b9-f0c9-46b1-a744-8b006286da8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TR">
+      <UniqueIdentifier>{5d1fe670-ec90-4433-914a-a513fbb9d6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI">
+      <UniqueIdentifier>{662c0c14-e2e9-471c-baae-fba1e4f884aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\TR_Factory">
+      <UniqueIdentifier>{0853a194-735d-4fe0-88c4-f5c2ac07f710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\TR_Manager">
+      <UniqueIdentifier>{5170486c-98ff-4ce0-a662-d32fb587889a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\Model">
+      <UniqueIdentifier>{9f5037cc-2543-432c-b18f-8ea4add0fbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\RESPONSE">
+      <UniqueIdentifier>{968568e1-63fb-403f-9181-91896d9ec4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\Model\EBST">
+      <UniqueIdentifier>{6bf27841-d7bb-4993-905e-b3d4a9b87a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\Model\EBST\RR">
+      <UniqueIdentifier>{49af8f2d-cf8a-47c2-b159-0fd7824f09f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StockAPI\Model\EBST\TR">
+      <UniqueIdentifier>{dceb1b50-7a2e-45db-9ba4-53ade6549bfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClientEbest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientEbestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IStockApiInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRabbitMQBuilder.h">
+      <Filter>MsgQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CRabbitMQDirector.h">
+      <Filter>MsgQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CRabbitMQConsumer.h">
+      <Filter>MsgQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="IJsonSerializable.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonSerializer.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageOperation.h">
+      <Filter>Json\serializable</Filter>
+    </ClInclude>
+    <ClInclude Include="StockAbsractFactory.h">
+      <Filter>StockAPI\TR_Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="EbstFactory.h">
+      <Filter>StockAPI\TR_Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractTRManager.h">
+      <Filter>StockAPI\TR_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBase.h">
+      <Filter>StockAPI\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CEbestGateWay.h">
+      <Filter>StockAPI\TR_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EBestResponseProxy.h">
+      <Filter>StockAPI\RESPONSE</Filter>
+    </ClInclude>
+    <ClInclude Include="CJIFInfo.h">
+      <Filter>StockAPI\Model\EBST\RR</Filter>
+    </ClInclude>
+    <ClInclude Include="T8425_Theme.h">
+      <Filter>StockAPI\Model\EBST\TR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientEbest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientEbestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRabbitMQBuilder.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CRabbitMQDirector.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CRabbitMQConsumer.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonSerializer.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="StockAbsractFactory.cpp">
+      <Filter>StockAPI\TR_Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="EbstFactory.cpp">
+      <Filter>StockAPI\TR_Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="CEbestGateWay.cpp">
+      <Filter>StockAPI\TR_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EBestResponseProxy.cpp">
+      <Filter>StockAPI\RESPONSE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClientEbest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ClientEbest.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ClientEbest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
